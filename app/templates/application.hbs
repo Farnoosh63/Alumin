@@ -1,3 +1,177 @@
-<h2 id="title">Welcome to Ember</h2>
 
-{{outlet}}
+<div class="container-fluid maxwidth">
+  <header id="header">
+
+    <div class="ea-header">
+      <div class="ea-menu-toggle" data-nav-toggle>
+        <i class="fa fa-navicon"></i> MENU
+      </div>
+      <div class="ea-social-icons hidden-xs">
+        <ul class="list-unstyled list-inline">
+          <li><a href="https://www.linkedin.com/company/european-aluminium-association" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+          <li><a href="https://twitter.com/eu_aluminium" target="_blank"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="https://soundcloud.com/european-aluminium" target="_blank"><i class="fa fa-soundcloud"></i></a></li>
+          <li><a href="https://www.youtube.com/user/EuroAluAssoc" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+          <li><a href="https://www.flickr.com/photos/136184746@N08/favorites" target="_blank"><i class="fa fa-flickr"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    </header>
+
+      <div class="ea-wrapper">
+        <div class="container-fluid maxwidth">
+          <div class="ea-logo">
+            <a href="/"><img src="http://placehold.it/140x100" height="65" class="img-responsive" /></a>
+          </div>
+
+          {{outlet}}
+
+        </div>
+      </div>
+    </div>
+
+
+
+  <div id="ea-nav-menu">
+    <a data-nav-toggle class="ea-menu-close">
+      <svg height="20" width="20">
+        <polyline points="0,0 20,20" stroke-width="1" stroke="#000"></polyline>
+        <polyline points="20,0 0,20" stroke-width="1" stroke="#000"></polyline>
+      </svg>
+    </a>
+    <ul class="list-unstyled first-level">
+      <li class=" active">
+        <a href="/">HOME</a>
+      </li>
+      <li class="">
+        <a href="/about-us/">ABOUT US</a>
+        <ul class="list-unstyled second-level">
+          <li class="">
+            <a href="/about-us/our-members/">Our members</a>
+          </li>
+          <li class="">
+            <a href="/about-us/our-team/">Our team</a>
+          </li>
+          <li class="">
+            <a href="/about-us/governance/">Governance</a>
+          </li>
+          <li class="">
+            <a href="/about-us/member-benefits/">Member benefits</a>
+          </li>
+          <li class="">
+            <a href="/about-us/how-to-become-a-member/">How to become a member</a>
+          </li>
+        </ul>
+      </li>
+      <li class="">
+        <a href="/about-aluminium/">ABOUT ALUMINIUM</a>
+        <ul class="list-unstyled second-level">
+          <li class="">
+            <a href="/about-aluminium/the-aluminium-effect/">The Aluminium Effect</a>
+          </li>
+          <li class="">
+            <a href="/about-aluminium/aluminium-in-use/">Aluminium in use</a>
+          </li>
+          <li class="">
+            <a href="/about-aluminium/stories-of-innovation/">Stories of innovation</a>
+          </li>
+          <li class="">
+            <a href="/about-aluminium/production-process/">Production process</a>
+          </li>
+        </ul>
+      </li>
+      <li class="">
+        <a href="/policy-areas/">POLICY AREAS</a>
+        <ul class="list-unstyled second-level">
+          <li class="">
+            <a href="/policy-areas/innovation/">Innovation</a>
+          </li>
+          <li class="">
+            <a href="/policy-areas/sustainability/">Sustainability</a>
+          </li>
+          <li class="">
+            <a href="/policy-areas/trade/">Trade</a>
+          </li>
+          <li class="">
+            <a href="/policy-areas/environment/">Environment</a>
+          </li>
+          <li class="">
+            <a href="/policy-areas/standards/">Standards</a>
+          </li>
+          <li class="">
+            <a href="/policy-areas/health-safety/">Health &amp; Safety</a>
+          </li>
+          <li class="">
+            <a href="/policy-areas/product-policies/">Product Policies</a>
+          </li>
+          <li class="">
+            <a href="/policy-areas/energy-climate/">Energy &amp; Climate</a>
+          </li>
+        </ul>
+      </li>
+      <li class="">
+        <a href="/advocacy/">ADVOCACY</a>
+        <ul class="list-unstyled second-level">
+          <li class="">
+            <a href="/advocacy/emissions-trading-system/">Emissions Trading System</a>
+          </li>
+          <li class="">
+            <a href="/advocacy/market-economy-status/">Market Economy Status</a>
+          </li>
+          <li class="">
+            <a href="/advocacy/circular-economy/">Circular Economy</a>
+          </li>
+          <li class="">
+            <a href="/advocacy/decarbonisation-of-transport/">Decarbonisation of transport</a>
+          </li>
+          <li class="">
+            <a href="/advocacy/product-environmental-footprint/">Product Environmental Footprint</a>
+          </li>
+        </ul>
+      </li>
+      <li class="">
+        <a href="/data/">DATA</a>
+        <ul class="list-unstyled second-level">
+          <li class="">
+            <a href="/data/industry-overview/">Industry overview</a>
+          </li>
+          <li class="">
+            <a href="/data/recycling-data/">Recycling data</a>
+          </li>
+          <li class="">
+            <a href="/data/economic-data/">Economic data</a>
+          </li>
+          <li class="">
+            <a href="/data/packaging-data/">Packaging data</a>
+          </li>
+        </ul>
+      </li>
+      <li class="">
+        <a href="/resource-hub/">RESOURCE HUB</a>
+      </li>
+      <li class="">
+        <a href="/contact-us/">CONTACT US</a>
+      </li>
+    </ul>
+  <div class="modal fade" id="ea-modal" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      </div>
+      <a href="#ea-modal" data-dismiss="modal" data-target="#ea-modal"><i class="fa fa-times"></i></a>
+    </div>
+  </div>
+</div>
+
+
+
+  <footer>
+    <div class="ea-footer-links">
+      <ul class="list-unstyled list-inline">
+        <li><a href="/" >SITEMAP</a></li>
+        <li><a href="/" >CONTACT US</a></li>
+      </ul>
+    </div>
+    <div class="ea-footer-text">
+      <p>ALL RIGHTS RESERVED 2016 &#169; ALUMINCO  TEHRAN, IRAN  T +98 (21)123 456 78 90</p>
+    </div>
+  </footer>
