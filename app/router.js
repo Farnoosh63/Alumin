@@ -14,6 +14,7 @@ Router.map(function() {
   this.route('curtain-wall');
   this.route('composite-panel');
   this.route('projects');
+  this.route('about-us');
 });
 
 export default Router;
