@@ -7,7 +7,7 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('aluminium');
-  this.route('windows');
+  this.route('aluminium/windows', {path: '/aluminium/windows'});
   this.route('doors');
   this.route('sliding-windows');
   this.route('wood');
