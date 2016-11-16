@@ -8,8 +8,8 @@ const Router = Ember.Router.extend({
 Router.map(function() {
   this.route('aluminium');
   this.route('aluminium/windows', {path: '/aluminium/windows'});
-  this.route('doors');
-  this.route('sliding-windows');
+  this.route('aluminium/doors', {path: '/aluminium/doors'});
+  this.route('aluminium/sliding-windows' , {path: '/aluminium/sliding-windows'});
   this.route('wood');
   this.route('curtain-wall');
   this.route('composite-panel');
@@ -19,6 +19,11 @@ Router.map(function() {
   this.route('alucobond');
   this.route('brokelmann');
   this.route('blk');
+  this.route('windows/blk', {path: '/aluminium/windows/blk'});
+  this.route('windows/brokelmann', {path: '/aluminium/windows/brokelmann'});
+  this.route('doors/blk' , {path: '/aluminium/doors/blk'});
+  this.route('doors/brokelmann' , {path: '/aluminium/doors/brokelmann'});
+  this.route('sliding-windows/blk' , {path: '/aluminium/sliding-windows/blk'});
 });
 
 export default Router;
