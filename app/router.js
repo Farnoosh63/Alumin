@@ -15,6 +15,10 @@ Router.map(function() {
   this.route('composite-panel');
   this.route('projects');
   this.route('about-us');
+  this.route('m-sora');
+  this.route('alucobond');
+  this.route('brokelmann');
+  this.route('blk');
 });
 
 export default Router;
