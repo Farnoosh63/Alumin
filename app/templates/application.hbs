@@ -19,7 +19,7 @@
       <div class="ea-wrapper">
         <div class="container-fluid maxwidth">
           <div class="ea-logo">
-            <a href="/"><img src="/assets/images/logo.png" height="65" class="img-responsive" /></a>
+            <a href="/"><img src="/assets/images/logo.png" alt="Aluminco logo" height="65" class="img-responsive" /></a>
           </div>
 
           {{outlet}}
@@ -54,27 +54,22 @@
         <a href="/curtain-wall">CURTAIN WALL</a>
       </li>
       <li class="">
-        <a href="/data/">DATA</a>
-        <ul class="list-unstyled second-level">
-          <li class="">
-            <a href="/data/industry-overview/">Industry overview</a>
-          </li>
-          <li class="">
-            <a href="/data/recycling-data/">Recycling data</a>
-          </li>
-          <li class="">
-            <a href="/data/economic-data/">Economic data</a>
-          </li>
-          <li class="">
-            <a href="/data/packaging-data/">Packaging data</a>
-          </li>
-        </ul>
+        <a href="/blk">BLK</a>
       </li>
       <li class="">
-        <a href="/resource-hub/">RESOURCE HUB</a>
+        <a href="/brokelmann">BROKELMANN</a>
       </li>
       <li class="">
-        <a href="/contact-us/">CONTACT US</a>
+        <a href="/alucobond">ALUCOBOND</a>
+      </li>
+      <li class="">
+        <a href="/m-sora">M SORA</a>
+      </li>
+      <li class="">
+        <a href="/projects">PROJECTS</a>
+      </li>
+      <li class="">
+        <a href="#" data-toggle="modal" data-target="#contact-us">CONTACT US</a>
       </li>
     </ul>
   <div class="modal fade" id="ea-modal" role="dialog">
@@ -92,10 +87,40 @@
     <div class="ea-footer-links">
       <ul class="list-unstyled list-inline">
         <li><a href="/" >SITEMAP</a></li>
-        <li><a href="/" >CONTACT US</a></li>
+        <li><a href="#" data-toggle="modal" data-target="#contact-us" data-backdrop="true">CONTACT US</a></li>
       </ul>
     </div>
     <div class="ea-footer-text">
       <p>ALL RIGHTS RESERVED 2016 &#169; ALUMINCO  TEHRAN, IRAN  T +98 (21)123 456 78 90</p>
     </div>
   </footer>
+
+  <!-- beginning of modal windows -->
+  <div id="contact-us" class="modal fade " role="dialog" data-backdrop="false" style=" overflow-y: auto; margin-top: 20px;">
+    <div class="modal-dialog modal-md">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <div class="row modal-title">
+            <h2 style="text-align: center;">Contact Us</h2>
+          </div>
+        </div>
+        <div class="col-sm-6 column modal-body">
+          <h3 style="text-align: center;">Tehran Office</h3>
+					<div class="contact-address" style="text-align: center;">
+            <address><strong>123 ValiAsr Tehran<br>Tehran, Iran<br> Postal-code: 12345-6789 </strong><br><small>( Lorem ipsum dolor sit amet, consectetuer adipiscing elit )</small></address>
+          </div>
+        </div>
+        <div class="col-sm-6 column modal-body">
+          <h3 style="text-align: center;">Factory Office</h3>
+					<div class="contact-address" style="text-align: center;">
+            <address><strong>123 ValiAsr Tehran<br>Tehran, Iran<br> Postal-code: 12345-6789 </strong><br><small>( Lorem ipsum dolor sit amet, consectetuer adipiscing elit )</small></address>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn custom-btn-2 center-block" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END: BLK fullscreen modal -->
